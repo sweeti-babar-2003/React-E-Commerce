@@ -6,6 +6,8 @@ import productReducer from "../redux/productSlice";
 import categoryReducer from "../redux/categorySlice";
 
 export const store = configureStore({
+
+    
     reducer: {
         Cart: cartReducer,
         wishlist: wishlistReducer,
